@@ -21,4 +21,4 @@ To visit the Java Course Academy Landing Page, simply download or opeh the html 
 
 ---
 
-Thank you ! For any query do not hesitate for contacting me on my linkedin : https://www.linkedin.com/in/priya-m-981684274
+Thank you ! For any query do not hesitate to contact me on my linkedin : https://www.linkedin.com/in/priya-m-981684274
