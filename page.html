@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Course Enrollment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="jca.png" alt="Java Course Logo" class="logo">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Welcome to Our Java Course</h1>
+            <p>Learn Java from scratch with our comprehensive course.</p>
+        </div>
+    </header>
+
+    
+    <section class="main-content">
+        <div class="course-details">
+            <h2>Course Details</h2>
+            <p>This Java course is designed for beginners with no prerequisites. You'll learn:</p>
+            <ul>
+                <li>Java syntax and fundamentals</li>
+                <li>Object-oriented programming in Java</li>
+                <li>Working with Java libraries and frameworks</li>
+                <li>Building real-world Java applications</li>
+            </ul>
+        </div>
+    
+        <div class="enrollment-form">
+            <h2>Enroll Now</h2>
+        <form action="submit.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <button type="submit">Enroll</button>
+        </form>
+    </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Java Course Academy</h2>
+        <p>Java Course Academy is dedicated to providing high-quality Java programming courses for beginners and experienced developers. Our objective is to empower learners with a strong foundation in Java programming, enabling them to build real-world applications with confidence.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For any queries or support, feel free to contact us:</p>
+        <p>Contact Number: +123456789</p>
+        <p>Email: info@javacourseacademy.com</p>
+    </section>
+    
+    
+    <section class="student-reviews">
+        <h2>Student Reviews</h2>
+        <div class="review">
+            <p class="student-name">John Doe</p>
+        <div class="rating">
+            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+        </div>
+        <p class="review-text">"This course was amazing! I had no prior programming experience, but now I can write Java code confidently."</p>
+    </div>
+    <div class="review">
+        <p class="student-name">Jane Smith</p>
+        <div class="rating">
+            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star-empty">&#9734;</span>
+        </div>
+        <p class="review-text">"The course content was great, but I wish there were more coding exercises."</p>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2023 Java Course Academy</p>
+    </footer>
+</body>
+</html>
